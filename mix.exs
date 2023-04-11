@@ -50,7 +50,9 @@ defmodule IfscService.MixProject do
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
-      {:ex_csv, "~> 0.1.5"}
+      # {:ex_csv, "~> 0.1.5"},
+      # {:nimble_csv, "~> 1.1"},
+      {:csv, "~> 3.0"}
     ]
   end
 
